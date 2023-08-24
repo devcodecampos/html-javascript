@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Minha Página</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <header>
+        <h1>Lista de Alunos</h1>
+      </header>
+      <form id="list-form">
+        <p>Adicione um aluno</p>
+        <div id="form">
+          <input
+            type="text"
+            id="input"
+            placeholder="Nome do Aluno"
+            onfocus="this.value='';"
+          />
+          <button type="submit" id="button">Adicionar</button>
+        </div>
+      </form>
+      <ul id="list"></ul>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
