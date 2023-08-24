@@ -10,7 +10,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## 🎨 Preview
 <p align="center">
-  <img alt="projeto Linkspace" src=".github/preview.png" width="100%">
+  <img alt="projeto Linkspace" src=".github/preview.png" width="375px" height="667px">
 </p>
 
 ## 🚩 Funcionalidades
