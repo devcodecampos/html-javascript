@@ -1,0 +1,63 @@
+:root {
+    --text-color: rgb(255, 255, 255);
+    --primary-color: rgb(221, 64, 58);
+    --secondary-color: rgb(62, 54, 63);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input,
+button {
+    border-style: none;
+    border-radius: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0px;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 26px;
+    background: var(--secondary-color);
+    border-radius: 8px;
+}
+
+.container {
+    width: 100%;
+    max-width: 588px;
+    margin: 56px auto 0px;
+    padding: 0px 24px;
+}
+
+.material-icons {
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: var(--primary-color)
+}
